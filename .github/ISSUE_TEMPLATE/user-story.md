@@ -1,11 +1,11 @@
-**As a** [role]  
-**I need** [function]  
-**So that** [benefit]  
+**As a** Software Engineer  
+**I need** a Coffee  
+**So that** I can live  
       
 ### Details and Assumptions
-    * [document what you know]      
+    * Someone needs a coffee to survive.     
 ### Acceptance Criteria     
     gherkin 
-    Given [some context]
-    When [certain action is taken]
-    Then [the outcome of action is observed]
+    Given coffee is taken
+    When cup is empty
+    Then the user can live
