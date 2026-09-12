@@ -89,8 +89,8 @@ spec:
       params:
       - name: SCRIPT
         value: |
-          echo: "Updating manifest..."
-          sed -i "s|us.icr.io/sn-labs-justinwalke2/accounts:1|$params.build-image)|g" deploy/deployment.yaml
+          echo  "Updating manifest..."
+          sed -i "s|IMAGE_NAME_HERE|$(params.build-image)|g" deploy/deployment.yaml
           cat deploy/deployment.yaml
           echo "Deploying to OpenShift"
           oc apply -f deploy/
